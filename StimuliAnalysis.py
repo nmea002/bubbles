@@ -75,6 +75,8 @@ def stimuli_analysis (file_name):
         # ---------------------------
         # Writing to csv
         # ---------------------------
+        cols = ["Fraction_1", "Fraction_2"]
+        subset[cols] = subset[cols].astype(str).applymap(lambda x: "'" + x)
         output_file = "stimuli_output.csv"
         subset.to_csv(output_file, index=False)
         return output_file
