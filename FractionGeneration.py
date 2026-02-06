@@ -1,6 +1,5 @@
 from collections import defaultdict
 import csv
-import math
 import Fraction as fr
 import FractionGeneration as fgr
 
