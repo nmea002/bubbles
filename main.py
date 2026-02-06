@@ -39,10 +39,6 @@ state_info = CHAT_FLOW.get(current_state, {})
 # UI Rendering 
 # ---------------------------
 with st.chat_message("assistant"):
-    # Debug (remove later)
-    st.write(f"Current state: {current_state}")
-    st.write(f"State Info: {state_info}")
-
     # Assistant message
     st.write(state_info.get("text", ""))
 
@@ -91,7 +87,7 @@ with st.chat_message("assistant"):
             # Add a new assistant message saying the file is generated
             st.session_state["messages"].append({
                 "role": "assistant",
-                "content": f"✅ File generated: {generated_file}"
+                "content": f"File generated: {generated_file}"
             })
 
             # Move to next state
