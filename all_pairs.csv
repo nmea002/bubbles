@@ -1,0 +1,11 @@
+Distance,Fraction_Pair,Left_Fraction,Right_Fraction,Compatibility,Unit,Benchmark,Relation_To_Half
+0.17,1/2_1/3,'1/2,'1/3,Misleading,Both_Unit,Both_Benchmark,Both_Half
+0.25,1/2_1/4,'1/2,'1/4,Misleading,Both_Unit,Both_Benchmark,Both_Half
+-0.17,1/2_2/3,'1/2,'2/3,Compatible,Includes_Unit,Both_Benchmark,Crosses
+-0.25,1/2_3/4,'1/2,'3/4,Compatible,Includes_Unit,Both_Benchmark,Crosses
+0.08,1/3_1/4,'1/3,'1/4,Misleading,Both_Unit,Both_Benchmark,Both_Below_Half
+-0.33,1/3_2/3,'1/3,'2/3,Compatible,Includes_Unit,Both_Benchmark,Crosses
+-0.42,1/3_3/4,'1/3,'3/4,Compatible,Includes_Unit,Both_Benchmark,Crosses
+-0.42,1/4_2/3,'1/4,'2/3,Compatible,Includes_Unit,Both_Benchmark,Crosses
+-0.50,1/4_3/4,'1/4,'3/4,Compatible,Includes_Unit,Both_Benchmark,Crosses
+-0.08,2/3_3/4,'2/3,'3/4,Compatible,Excludes_Unit,Both_Benchmark,Both_Above_Half
