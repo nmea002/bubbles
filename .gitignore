@@ -3,3 +3,4 @@ debuglist.txt
 .venv 
 __pycache__
 runtime.txt
+Dockerfile
